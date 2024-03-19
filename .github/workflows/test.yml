@@ -16,4 +16,4 @@ jobs:
       - name: Install latest packages
         run: bun install --verbose
       - name: Check with svelte-check
-        run: bun run svelte:check
+        run: bun run check
